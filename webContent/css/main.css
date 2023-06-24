@@ -1,0 +1,299 @@
+/*Estilos generales*/
+
+body{
+	padding-top: 70px;
+	overflow: auto;
+}
+
+
+a, .cursor, input[type=radio]{cursor: pointer;}
+a:hover{text-decoration: none;}
+
+td, th{
+	text-align: center;
+}
+
+textarea{
+	resize: none;
+	text-align: left;
+}
+
+#formato, #tamanio{
+	padding-left: 5px;
+}
+
+.col-xs-12{
+	padding-bottom: 15px;
+}
+
+.centrado{text-align: center;}
+
+.listas li{list-style: none;}
+
+.oculto{display: none;}
+
+.checkbox{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto !important;
+}
+
+/*Archivos*/
+.control-label{
+	cursor: pointer;
+	display: inline !important;
+}
+
+.oculta-texto{
+	text-overflow:ellipsis !important;
+	white-space:nowrap !important;
+  	overflow:hidden !important;
+}
+
+#div_archivos, #div_miPlayerArchivo, #div_allArchivos,
+#div_archivoPlayer, #div_transferencia{
+    width: 100%;
+    height: 550px;
+    position:relative;
+}
+
+.div_allArchivos{
+	width: 100%;
+	margin-top: 15px;
+	padding-left: 50px !important;
+}
+
+.scroll-allArchivos{
+	border: 1px solid #C0BFBF;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 450px;
+	margin-bottom: 50px;
+}
+
+.scroll{
+	border: 1px solid #C0BFBF;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 560px;
+	margin-bottom: 50px;
+}
+
+.img-archivo{
+	margin: 1% 1% 1% 1%;
+	float: left !important;
+	width: 200px;
+}
+
+.arrastrar{
+	cursor: move;
+}
+
+.archivoDuracion, .popper{
+	width: 35px !important;
+	height: 29px !important;
+	font-size: 15px;
+	text-align: center;
+	padding: 0;
+	display: inline !important;
+}
+
+.nombreArchivo{
+	width: 60% !important;
+	height: 29px !important;
+}
+
+.lbl-nombre-archivo{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.img-preview{
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+	height: 115px;
+}
+
+/*Vista previa archivo*/
+.contenedor-preview{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	min-height: 149px;
+}
+
+#preview img{
+	padding: 15px 15px 15px 15px;
+	width: 100%;
+	max-height: 165px;
+}
+
+.txt-preview{
+	text-align: center;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+
+/*Barra de navegación*/
+.navbar-personalizado{
+	background-color: #ba0000 !important;
+	border-radius: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+	background-color: #ba0000 !important;
+}
+
+.navbar-personalizado>li>a:hover{
+	background-color: #ba0000 !important;
+	background-image: none;
+}
+
+.navbar-personalizado>li>a{
+	color: white !important;
+	text-shadow: none !important;
+}
+
+.datos-login{
+	padding: 20px 15px 15px 15px;
+	color: white;
+	text-shadow: none;
+	font-size: 12px;
+}
+
+.link-personalizado{
+	margin-left: 0px !important;
+	color: white;
+	text-shadow: none;
+}
+
+.link-personalizado > img{
+	width: 85px !important;
+	height: auto !important;
+}
+
+.link-personalizado:hover{
+	color: white;
+}
+
+.app-bar{
+	background: white;
+}
+
+.navbar-margin-top{
+	margin-top: 49px;
+}
+
+.navbar-usuario{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+    color: white;
+}
+
+.logout{
+	color: white;
+}
+
+.logout:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.navbar-login-session{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size{
+    font-size: 87px;
+}
+
+/*ScrollTop*/
+/*texto para lectores de pantalla*/
+.sr-only{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+
+.scroll-to-top{
+	text-decoration: none;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	display: none;
+	font-size: 36px;
+	color: #555;
+	opacity: 1;
+}
+
+.scroll-to-top:hover{
+	text-decoration:none;
+	color: #000;
+}
+
+/*archivo_player*/
+#btn_trasfArchivos{
+	margin-left: -15px;
+}
+
+/*Login*/
+.navbar-login{
+	height: 80px;
+	width: auto;
+	border: 0px !important;
+	background-color: white !important;
+	box-shadow: 0px 0px white !important;
+}
+
+.navbar-brand>img{
+  height: 57px;
+  width: 85px;
+}
+
+.tituloLogin{
+	width: 100%;
+	text-align: left;
+}
+
+.textoLogin{
+	font-size: 200%;
+}
+
+.version{
+	margin-top: 15px;
+}
+
+.td_ingresaUsuario{
+	text-align: left;
+}
+
+.msjError{
+	color: red;
+}
+
+
+.thumbnail>img{
+	display: inline-block !important;
+}
+
+.file {
+  visibility: hidden;
+  position: absolute;
+}
+
+.input-group-addon{
+	background-color: white !important;
+}
+
+.glyphicon-lock,
+.glyphicon-user-personal{
+	color: #ba0000 !important;
+}
